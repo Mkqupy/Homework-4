@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+li{
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    height: 20px;
+    max-width: auto  ;
+    height: 182px;
+    padding-top: 71px;
+}
+.header :hover{
+    color: dodgerblue;
+}
+.header-navigation{
+    width: 615px;
+    height: 19px;
+    margin: 0 auto;
+}
+.header-item:not(:first-child) {
+    margin-left: 100px;
+}
+.header-link{
+    font-family: 'Playfair Display';
+    color: #7D7D7D;
+}
+
+main{
+    max-width: auto;
+    height: 1988px;
+    padding: 0 auto;
+}
+
+.main-list p{
+    width: 420px;
+}
+.main-list li p:nth-of-type(1){
+    margin-top: 62px;
+}
+.main-list h3{
+    margin-top: 32px;
+}
+.main-list p:nth-of-type(2){
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+img{
+    width: 420px;
+    height: 280px;
+}
+.main-list{
+    width: 905px;
+    margin: 0 auto;
+}
+.main-list li:nth-of-type(even){
+    margin-left: 61px;
+}
+main button{
+   max-width: auto;
+   width: 165px;
+   height: 60px; 
+   margin-left: 45%;
+   margin-bottom: 66px;
+    
+}
